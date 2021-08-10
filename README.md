@@ -13,18 +13,18 @@
 
 <h1>Refactoring</h1>
 able to reduce lines of code using app.route()
-<br>
-before :
-<br>
+<br><br>
+<strong>before</strong> :
+<br><br>
 app.get("/", ...{
-...
+<br>...<br>
 });
-<br>
+<br><br>
 app.post("/", ...{
-...
+<br>...<br>
 });
-<br>
-after :
-<br>
+<br><br>
+<strong>after</strong> :
+<br><br>
 app.route("/").get(...).post(...);
 
