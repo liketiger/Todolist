@@ -28,3 +28,5 @@ app.post("/", ...{
 <br><br>
 app.route("/").get(...).post(...);
 
+<h1>Used tech</h1>
+Node.js / express / MongoDB / Mongoose / Atlas
